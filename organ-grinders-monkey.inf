@@ -1,0 +1,1052 @@
+!% -~S
+!% $OMIT_UNUSED_ROUTINES=1
+!% $ZCODE_COMPACT_GLOBALS=1
+!% $ZCODE_LESS_DICT_DATA=1
+!% $ZCODE_MAX_INLINE_STRING=9999
+!% $MAX_ABBREVS=96
+!========================================
+! The Organ Grinder's Monkey
+! Copyright © 2025 Garry Francis
+!========================================
+!Constant DEBUG;
+
+Abbreviate "encil-thin moustache";          !     2x21, saved    17
+Abbreviate "rainbow-coloured";              !     3x17, saved    27
+Abbreviate " the town squar";               !     4x15, saved    37
+Abbreviate "n't understand";                !     5x15, saved    50
+Abbreviate "organ grinder";                 !    10x13, saved    95
+Abbreviate "barrel organ";                  !     3x12, saved    18
+Abbreviate "unexpected.";                   !     4x12, saved    28
+Abbreviate "description";                   !     6x11, saved    42
+Abbreviate "fairy floss";                   !    10x11, saved    78
+Abbreviate "You can't ";                    !    17x12, saved   158
+Abbreviate "ranscript";                     !     8x 9, saved    47
+Abbreviate " nothing ";                     !    17x 9, saved   110
+Abbreviate " anything";                     !     7x 9, saved    40
+Abbreviate " interest";                     !     5x 9, saved    26
+Abbreviate "lamp post";                     !     7x 9, saved    40
+Abbreviate "irection";                      !    10x 8, saved    51
+Abbreviate " at the ";                      !     9x 8, saved    45
+Abbreviate " already";                      !    14x 8, saved    75
+Abbreviate "carrying";                      !     6x 8, saved    27
+Abbreviate " says, ";                       !     6x 8, saved    27
+Abbreviate "There's";                       !     9x 9, saved    54
+Abbreviate " around";                       !     8x 7, saved    31
+Abbreviate "arnival";                       !    14x 7, saved    61
+Abbreviate " vendor";                       !     7x 7, saved    26
+Abbreviate "You are";                       !    11x 8, saved    57
+Abbreviate " can't ";                       !     9x 8, saved    45
+Abbreviate "balloon";                       !    33x 7, saved   156
+Abbreviate "before";                        !     7x 6, saved    22
+Abbreviate "in cup";                        !     5x 6, saved    14
+Abbreviate "monkey";                        !    25x 6, saved    94
+Abbreviate " what ";                        !     9x 6, saved    30
+Abbreviate " your ";                        !    24x 6, saved    90
+Abbreviate "ommand";                        !    11x 6, saved    38
+Abbreviate "closed";                        !     8x 6, saved    26
+Abbreviate "ould ";                         !    11x 5, saved    27
+Abbreviate " and ";                         !    44x 5, saved   126
+Abbreviate "thing";                         !    25x 5, saved    69
+Abbreviate "Tommy";                         !    21x 6, saved    78
+Abbreviate " you ";                         !    59x 5, saved   171
+Abbreviate "bject";                         !    11x 5, saved    27
+Abbreviate " that";                         !    31x 5, saved    87
+Abbreviate "again";                         !     7x 5, saved    15
+Abbreviate " the ";                         !    92x 5, saved   270
+Abbreviate " here";                         !    10x 5, saved    24
+Abbreviate "ntain";                         !    10x 5, saved    24
+Abbreviate "which";                         !     8x 5, saved    18
+Abbreviate " not ";                         !    15x 5, saved    39
+Abbreviate " hand";                         !    10x 5, saved    24
+Abbreviate "give";                          !    11x 4, saved    16
+Abbreviate " is ";                          !    32x 4, saved    58
+Abbreviate "You'";                          !    14x 6, saved    50
+Abbreviate "with";                          !    15x 4, saved    24
+Abbreviate "have";                          !    25x 4, saved    44
+Abbreviate "_to/";                          !    12x 6, saved    42
+Abbreviate "his ";                          !    25x 4, saved    44
+Abbreviate "tion";                          !    17x 4, saved    28
+Abbreviate "self";                          !     9x 4, saved    12
+Abbreviate "Use ";                          !    10x 5, saved    24
+Abbreviate "You ";                          !    52x 5, saved   150
+Abbreviate "look";                          !    15x 4, saved    24
+Abbreviate "ing ";                          !    47x 4, saved    88
+Abbreviate "It's";                          !    12x 6, saved    42
+Abbreviate " to ";                          !    75x 4, saved   144
+Abbreviate "n't ";                          !    30x 5, saved    84
+Abbreviate "some";                          !    17x 4, saved    28
+Abbreviate " re";                           !    23x 3, saved    20
+Abbreviate "you";                           !    41x 3, saved    38
+Abbreviate "ing";                           !    21x 3, saved    18
+Abbreviate "an ";                           !    22x 3, saved    19
+Abbreviate "ear";                           !    21x 3, saved    18
+Abbreviate "'s ";                           !    26x 4, saved    46
+Abbreviate " it";                           !    23x 3, saved    20
+Abbreviate "see";                           !    19x 3, saved    16
+Abbreviate "The";                           !    38x 4, saved    70
+Abbreviate "all";                           !    25x 3, saved    22
+Abbreviate " of";                           !    34x 3, saved    31
+Abbreviate "re ";                           !    32x 3, saved    29
+Abbreviate "~^^";                           !    10x 6, saved    34
+Abbreviate "ver";                           !    26x 3, saved    23
+Abbreviate "the";                           !    37x 3, saved    34
+Abbreviate "est";                           !    22x 3, saved    19
+Abbreviate "for";                           !    20x 3, saved    17
+Abbreviate " to";                           !    16x 3, saved    13
+Abbreviate " a ";                           !    52x 3, saved    49
+Abbreviate " on";                           !    33x 3, saved    30
+Abbreviate "ent";                           !    29x 3, saved    26
+Abbreviate " do";                           !    30x 3, saved    27
+Abbreviate "out";                           !    28x 3, saved    25
+Abbreviate "ed.";                           !    17x 4, saved    28
+Abbreviate " in";                           !    45x 3, saved    42
+Abbreviate ".^^";                           !    15x 6, saved    54
+Abbreviate ". ";                            !    60x 3, saved    57
+Abbreviate "e.";                            !    36x 3, saved    33
+Abbreviate ", ";                            !    80x 3, saved    77
+Abbreviate "!~";                            !    12x 4, saved    18
+Abbreviate "s.";                            !    23x 3, saved    20
+
+Constant Story "The Organ Grinder's Monkey";
+Constant Headline "^Copyright (c) 2025 Garry Francis^Type ABOUT for further info and credits.^^";
+
+Array UUID_ARRAY string "UUID://38335c7b-e699-4893-8132-57bae03a9ae5//";
+#Ifdef UUID_ARRAY;
+#Endif;
+
+Release 1;
+Serial "251202";
+
+!Inform 6 constants
+Constant DEATH_MENTION_UNDO;
+Constant MAX_CARRIED = 10;
+Constant NO_SCORE;
+
+!PunyInform constants
+Constant CUSTOM_ABBREVIATIONS;
+Constant OPTIONAL_EXTENDED_METAVERBS;
+Constant OPTIONAL_EXTENDED_VERBSET;
+Constant OPTIONAL_FULL_DIRECTIONS;
+Constant OPTIONAL_PRINT_SCENERY_CONTENTS; !Uncomment if any scenery has container or supporter
+Constant OPTIONAL_PROVIDE_UNDO;
+Constant RUNTIME_ERRORS 0;!0 for release, 2 for debug
+
+!PunyInform static messages
+Constant MSG_COMMENT_NO_TRANSCRIPT "Comment recorded. Use SCRIPT ON to save future comments in a transcript.^";
+Constant MSG_COMMENT_TRANSCRIPT "Comment recorded.^";
+Constant MSG_PARSER_NO_INPUT "You need to enter a command.";
+Constant MSG_PARSER_UNKNOWN_VERB "That's not a verb I recognise.";
+Constant MSG_SORRY_DEFAULT "Oh, don't apologise.";
+Constant MSG_WAIT_DEFAULT "Time passes...";
+
+!PunyInform dynamic messages
+Constant MSG_CLOSE_NOT_OPEN 1000;
+Constant MSG_LOCK_ALREADY_LOCKED 1001;
+Constant MSG_LOCK_CLOSE_FIRST 1002;
+Constant MSG_LOCK_KEY_DOESNT_FIT 1003;
+Constant MSG_UNLOCK_ALREADY_UNLOCKED 1004;
+Constant MSG_UNLOCK_KEY_DOESNT_FIT 1005;
+
+!Game-specific constants
+
+!Replaced actions
+Replace _UpdateDarkness;
+Replace GoSub; !Delete if diagonal directions are used
+Replace LockSub;
+Replace UnlockSub;
+
+Include "globals.h";
+
+!Game-specific variables
+
+!========================================
+! Entry point routines
+!========================================
+[ LibraryMessages p_msg p_arg_1 p_arg_2;
+  switch (p_msg)
+  {
+    MSG_CLOSE_NOT_OPEN:
+      print_ret (CTheyreOrIts)noun, " already closed.";
+    MSG_LOCK_ALREADY_LOCKED:
+      print_ret (CTheyreOrIts)noun, " already locked.";
+    MSG_LOCK_CLOSE_FIRST:
+      "You'll have to close ", (ItOrThem)noun, " first.";
+    MSG_LOCK_KEY_DOESNT_FIT:
+      print_ret (The)second, " ", (DoesntOrDont)second, " fit the lock.";
+    MSG_UNLOCK_ALREADY_UNLOCKED:
+      print_ret (CTheyreOrIts)noun, " already unlocked.";
+    MSG_UNLOCK_KEY_DOESNT_FIT:
+      print_ret (The)second, " ", (DoesntOrDont)second, " fit the lock.";
+  }
+  p_arg_1 = p_arg_2;
+];
+
+Include "puny.h";
+
+!========================================
+! Initialisation
+!========================================
+[ Initialise;
+  location = room01;
+  lookmode = 2;
+  move wallet to player;
+  no_implicit_actions = true;
+  player.description = "You're just a typical dad, trying to keep your young son happy.";
+  "^There's a carnival in town and your young son has been pestering you to go. You know that if you do, you'll spend all your money on stupid frivolous things, like candy and fairy floss. The household budget can't afford that and you have a mortgage to pay.^^On the flip side, if you don't go, your son will think you're the worst father in the world.^^So, you consult the missus. She says, if you take junior to the carnival, then she'll make it worth your while...and gives you a little wink. That's all the encouragement you need.^^~Tommy!~, you shout at the top of your voice. ~Get dressed, we're going to the carnival!~^";
+];
+
+!========================================
+! Inventory
+!========================================
+!----------------------------------------
+! Wallet
+!----------------------------------------
+Object wallet "wallet"
+with
+  article "your",
+  name 'brown' 'leather' 'wallet',
+  description "It's a brown leather wallet that you take with you everywhere you go. It contains all your ID, including your driver's licence, credit cards and some cash.",
+  before
+  [;
+    Drop:
+      "Don't be silly. If you lose your wallet, it will take weeks to cancel and replace all your id and credit cards.";
+  ],
+  add_to_scope contents,
+has;
+
+!----------------------------------------
+! Contents of wallet
+!----------------------------------------
+Object contents "contents"
+with
+  name 'contents' 'id' 'identification' 'driver^s' 'licence' 'license' 'credit' 'cards' 'cash',
+  description "The contents of your wallet aren't important right now.",
+has scenery;
+
+!========================================
+! Room 1: North End of Carnival
+!========================================
+Object room01 "North End of Carnival"
+with
+  description "This is the northern end of the carnival, which is spread around the town square. There's more to the south.",
+  s_to
+  [;
+    if (balloon hasnt moved)
+      "Tommy says, ~Daddy, can I get a balloon?~";
+    else
+      return room02;
+  ],
+has light;
+
+!----------------------------------------
+! Carnival (floating object)
+!----------------------------------------
+Object "carnival"
+with
+  name 'carnival' 'town' 'square',
+  description "The carnival is a hive of activity. You're actually glad you came. All the festivities are concentrated around the town square.",
+  found_in
+  [;
+    rtrue;
+  ],
+has scenery;
+
+!----------------------------------------
+! Lamp post (floating object)
+!----------------------------------------
+Object "lamp post"
+with
+  name 'lamp' 'post' 'lamps',
+  description
+  [;
+    print "There's a lamp post on every corner. This one is no different. The lamps aren't lit at the moment, as it's daytime.";
+    if (self in room01 && balloon has scenery && balloon has moved)
+      print " The balloon you bought for Tommy is stuck in the top of the lamp post.";
+    "";
+  ],
+  before
+  [;
+    Climb:
+      "You're not a monkey.";
+    Point:
+      if (self in room01 && balloon has scenery && monkey in location)
+        <<Point balloon>>;
+  ],
+  found_in
+  [;
+    rtrue;
+  ],
+has static;
+
+!----------------------------------------
+! Balloon vendor
+!----------------------------------------
+Object vendor "balloon vendor" room01
+with
+  parse_name
+  [ nw i flag;
+    nw = NextWord();
+    while (nw == 'balloon' or 'vendor' or 'fat' or 'man')
+    {
+      i++;
+      if (nw == 'balloon' && TestScope(balloon))
+        flag++;
+      nw = NextWord();
+    }
+    if (i == flag)
+      return 0;
+    return i;
+  ],
+  description "The balloon vendor is a fat man with a bushy white beard and wearing a chequered shirt. You imagine this is what Santa Claus would look like if he was a farmer.",
+  life
+  [;
+    Talk:
+      print "~Can I interest you in a";
+      if (balloon has moved)
+        print "nother";
+      " balloon for your son?~";
+  ],
+  each_turn
+  [;
+    if (random(10) == 1)
+    {
+      print "^The balloon vender yells out, ";
+      switch (random(10))
+      {
+        1:"~Balloons, get your balloons!~";
+        2:"~Balloons on sale for today only!~";
+        3:"~No trip to the carnival is complete without some balloons!~";
+        4:"~Pink balloons, green balloons, blue balloons, we've got 'em all!~";
+        5:"~We've got balloons in all shapes and sizes!~";
+        6:"~Buy two balloons, get one free!~";
+        7:"~How about you sir? A balloon for the little 'un?~";
+        8:"~Buy a balloon! Beat inflation!~";
+        9:"~Get your balloons here!~";
+        10:"~Buy a balloon before the bubble bursts!~";
+      }
+    }
+  ],
+has animate transparent;
+
+!----------------------------------------
+! Beard
+!----------------------------------------
+Object "beard" vendor
+with
+  name 'bushy' 'white' 'beard',
+  description "It must have taken him years to grow it. It's certainly a beard to be proud of.",
+has scenery;
+
+!----------------------------------------
+! Shirt
+!----------------------------------------
+Object "shirt" vendor
+with
+  name 'chequered' 'checkered' 'check' 'shirt',
+  description "It's a blue, black and white chequered shirt, probably bought at K-Mart.",
+has scenery;
+
+!----------------------------------------
+! Balloons
+!----------------------------------------
+Object balloons "balloons" room01
+with
+  name 'huge' 'bunch' 'of' 'balloons',
+  description "The balloon vendor is carrying a huge bunch of balloons. In fact, he has so many balloons that you wouldn't be the least bit surprised if he was to float away.",
+  before
+  [;
+    Buy:
+      "You only need to buy one.";
+    Take:
+      "The balloon vendor says, ~Hey, I can't give 'em away. I have to make a living, you know.~";
+  ],
+has pluralname static;
+
+!----------------------------------------
+! Balloon
+!----------------------------------------
+Object balloon "balloon" room01
+with
+  name 'rainbow-coloured' 'rainbow' 'coloured' 'balloon',
+  description
+  [;
+    if (self has scenery)
+      print "The one that appeals to you is";
+    else
+      print "It's";
+    " a rainbow-coloured balloon.";
+  ],
+  before
+  [;
+    Buy:
+      if (self has moved)
+        "You've already bought one and you have no intention of buying another one because Tommy wants the rainbow-coloured one.";
+      give self moved;
+      "You pull out your wallet and buy a rainbow-coloured balloon. The vendor hands it to you and you hand it to Tommy. Tommy is tickled pink, but his clumsy little hands aren't used to handling balloons and it slips through his fingers and floats away. Tommy is devastated and bursts into tears.^^Fortunately, the string of the balloon gets caught around the top of the lamp post. You try to console Tommy and tell him that you'll get it back, though you have no idea how you're going to do that.";
+    Point:
+      if (balloon has scenery && monkey in location)
+      {
+        give balloon ~scenery;
+        move balloon to player;
+        give monkey ~moved;
+        move monkey to room04;
+        "The monkey looks at you, then looks at the lamp post and sees the balloon at the top. He seems to know what you want. He skitters up the lamp post, recovers the balloon and climbs back down again. Tommy claps and cheers. ~Wow, he sure is a clever little monkey.~ The monkey then gives you the balloon and runs back to the organ grinder.";
+      }
+    Take:
+      if (self has scenery)
+        "You can't just take a balloon, you'll have to buy one.";
+  ],
+has scenery;
+
+!----------------------------------------
+! Tommy
+!----------------------------------------
+Object tommy "Tommy"
+with
+  name 'tom' 'tommy' 'boy' 'three-year' 'three' 'year' 'old' 'young' 'son',
+  description
+  [;
+    print "Tommy is your three-year old son. He's only just out of the 'terrible twos', but he's still a pain in the butt. Even so, you love him to bits.";
+    if (balloon has moved)
+      print " He's pretty upset about losing his balloon, so you need to give it back to him.";
+    "";
+  ],
+  life
+  [;
+    Give:
+      if (noun == fairy_floss)
+      {
+        remove noun;
+        "You give the fairy floss to Tommy and he scoffs it down in seconds.";
+      }
+      if (noun == balloon)
+      {
+        deadflag = 2;
+        "Tommy gives you a big hug. ~I love you daddy. You're the best daddy in the world.~";
+      }
+    Show:
+      if (noun == fairy_floss)
+        "Tommy's eyes light up at the sight of the fairy floss.";
+    Talk:
+      if (balloon hasnt moved)
+        "Tommy says, ~Can I get a balloon? Please, pretty please with sugar on top.~";
+      if (fairy_floss hasnt moved)
+        "Tommy says, ~Can I get a fairy floss? Please, daddy.~";
+      if (monkey in location)
+      {
+        print "Tommy says, ";
+        switch (random(5))
+        {
+          1:"~Why did the monkey wear a tuxedo to the zoo?~^^~I don't know.~^^~Because it was a formal occasion.~";
+          2:"~Why are monkeys bad liars?~^^You give him a strange look.^^~Because they always monkey around the truth.~";
+          3:"~Why do monkeys have fur coats?~^^~I don't know, why do monkeys have fur coats?~^^~Because they'd look silly in a leather jacket!~";
+          4:"~What do you call a monkey in a mine field?~^^You shrug your shoulders.~A baboom.~^^Oh, my ggodness, and they say dad jokes are bad.";
+          5:"~Why was the monkey kicked out of the jungle?~^^Where's he going with this one?^^~For monkey business.~";
+        }
+      }
+  ],
+  found_in
+  [;
+    rtrue;
+  ],
+has animate proper;
+
+!========================================
+! Room 2: Fountain
+!========================================
+Object room02 "Fountain"
+with
+  description "You're in the town square where the iconic fountain is located. The carnival is a bit quiet here. Most of the activity is to the north, south and west. In fact, you can hear some horrible music coming from the west.",
+  n_to room01,
+  s_to room03,
+  w_to room04,
+  before
+  [;
+    Listen:
+      "You can hear an organ grinder to the west.";
+  ],
+has light;
+
+!----------------------------------------
+! Fountain
+!----------------------------------------
+Object fountain "fountain" room02
+with
+  name 'fountain',
+  description
+  [;
+    print "This is the beautiful fountain located in the town square. ";
+    <<Search self>>;
+  ],
+  before
+  [;
+    Search:
+      if (coin in nothing)
+        move coin to fountain;
+  ],
+has container open scenery;
+
+!----------------------------------------
+! Water
+!----------------------------------------
+Object "water" fountain
+with
+  article "some",
+  name 'water',
+  description "It's crystal clear water. It looks almost good enough to drink.",
+  before
+  [;
+    Drink:
+      "you'd rather not after seeing what the pigeons have done in it.";
+    Take:
+      "The water trickles through you fingers.";
+  ],
+has static;
+
+!----------------------------------------
+! Coin
+!----------------------------------------
+Object coin "coin"
+with
+  name 'coin' 'silver' 'dollar',
+  description
+  [;
+    if (self hasnt moved)
+      "It's a silver dollar.";
+    else
+      "It's the silver dollar that you found in the fountain.";
+  ],
+has;
+
+!========================================
+! Room 3: South End of Carnival
+!========================================
+Object room03 "South End of Carnival"
+with
+  description "This is the southern-most end of the carnival. The rest of the carnival is to the north.",
+  n_to room02,
+has light;
+
+!----------------------------------------
+! Fairy floss vendor
+!----------------------------------------
+Object seller "fairy floss vendor" room03
+with
+  parse_name
+  [ nw i flag;
+    nw = NextWord();
+    while (nw == 'fairy' or 'floss' or 'vendor' or 'young' or 'lady' or 'afro-american' or 'woman')
+    {
+      i++;
+      if (nw == 'fairy' or 'floss')
+        flag++;
+      nw = NextWord();
+    }
+    if (i == flag)
+      return 0;
+    return i;
+  ],
+  description "The fairy floss vendor is a young Afro-American woman with a cheery outlook.",
+  life
+  [;
+    Talk:
+      print "~Good morning sir. Would you like to buy some ";
+      if (fairy_floss has moved)
+        print "more ";
+      "fairy floss for your son? It's really quite yummy.~";
+  ],
+has animate female;
+
+!----------------------------------------
+! Fairy floss
+!----------------------------------------
+Object fairy_floss "fairy floss" room03
+with
+  article "some",
+  name 'fairy' 'floss',
+  description "It's a mass of pink fluffy stuff that looks like an over-sized cotton ball. How do people eat that junk?",
+  before
+  [;
+    Buy:
+      if (self hasnt scenery)
+        "You've already bought some.";
+      give self ~scenery moved;
+      move self to player;
+      "You pull out your wallet and buy some fairy floss from the young lady.";
+    Eat:
+      "You hate fairy floss. Tommy likes it, though.";
+  ],
+has scenery;
+
+!========================================
+! Room 4: West End of Carnival
+!========================================
+Object room04 "West End of Carnival"
+with
+  description "This is the west end of the carnival and this is where most of the action is. Tommy is intrigued by the organ grinder, as he's never seen one before. Personally, you'd rather head back east to get away from the awful music.",
+  e_to room02,
+  before
+  [;
+    Listen:
+      "You are bombarded with awful hurdy, gurdy organ music.";
+  ],
+has light;
+
+!----------------------------------------
+! Organ grinder
+!----------------------------------------
+Object grinder "organ grinder" room04
+with
+  article "an",
+  name 'organ' 'grinder' 'foreign-looking' 'foreign' 'looking' 'gentleman' 'man' 'italian',
+  description "The organ grinder is a foreign-looking gentleman, probably Italian, with a black, pencil-thin moustache that's curled up at the ends. He doesn't pay you any attention, as his focus is on the monkey. His left hand balances the barrel organ while his right hand turns the handle that causes the organ to spew out its awful music. (One good turn deserves another.)",
+  life
+  [;
+    Talk:
+      "Either the organ grinder genuinely is Italian and doesn't understand you, or he can't hear you over the sound of his obnoxious organ or he's intentionally ignoring you until you give a donation.";
+  ],
+has animate transparent;
+
+!----------------------------------------
+! Moustache
+!----------------------------------------
+Object "moustache" grinder
+with
+  name 'black' 'pencil-thin' 'moustache',
+  description "The organ grinder's pencil-thin moustache is curled up at the ends.",
+has scenery;
+
+!----------------------------------------
+! Organ grinder's neck
+!----------------------------------------
+Object "organ grinder's neck" room04
+with
+  parse_name
+  [ nw i flag;
+    nw = NextWord();
+    while (nw == 'organ' or 'grinder^s' or 'neck')
+    {
+      i++;
+      if (nw == 'organ')
+        flag++;
+      nw = NextWord();
+    }
+    if (i == flag)
+      return 0;
+    return i;
+  ],
+  description "The strap of the barrel organ is wrapped around the organ grinder's neck.",
+has scenery;
+
+!----------------------------------------
+! Barrel organ
+!----------------------------------------
+Object organ "barrel organ" room04
+with
+  name 'barrel' 'organ' 'square' 'box' 'pole' 'strap',
+  description "It's a square box balanced on a pole with a strap around the organ grinder's neck.",
+has static;
+
+!----------------------------------------
+! Organ grinder's monkey
+!----------------------------------------
+Object monkey "monkey"
+with
+  parse_name
+  [ nw i flag;
+    nw = NextWord();
+    while (nw == 'organ' or 'grinder^s' or 'capuchin' or 'monkey')
+    {
+      i++;
+      if (nw == 'organ')
+        flag++;
+      nw = NextWord();
+    }
+    if (i == flag)
+      return 0;
+    return i;
+  ],
+  description "He's a cute capuchin monkey wearing a red vest and a red fez with a tassel. He also carries a tin cup that he uses to collect donations.",
+  life
+  [;
+    Give:
+      if (noun == coin)
+      {
+        move coin to cup;
+        give self moved;
+        "You drop your coin in the monkey's tin cup and it jumps up and down in glee. I think you've made a friend.";
+      }
+    Talk:
+      "~Eek, eek, eek.~^^Tommy laughs at you. ~Monkeys can't talk, daddy. Don't you know anything?~";
+  ],
+  each_turn
+  [;
+    if (random(10) == 1)
+    {
+      print "^The monkey ";
+      switch(random(10))
+      {
+        1:"scratches himself.";
+        2:"runs around in circles.";
+        3:"says, ~Eek, eek, eek.~";
+        4:"shakes his tin cup.";
+        5:"climbs up the lamp post and climbs back down again.";
+        6:"sticks out his tongue.";
+        7:"runs up to you and tugs on your trouser leg.";
+        8:"runs a short distance up the street, but returns straight away.";
+        9:"jumps up and down.";
+        10:"looks at you in high expectations, but is bitterly disappointed.";
+      }
+    }
+  ],
+  found_in
+  [;
+    if (location == room04 || self has moved)
+      rtrue;
+  ],
+has animate transparent;
+
+!----------------------------------------
+! Red vest
+!----------------------------------------
+Object vest "red vest" monkey
+with
+  name 'red' 'vest',
+  description "It's a silky red vest worn by the monkey. You wonder if the monkey had any say in the matter.",
+has scenery;
+
+!----------------------------------------
+! Red fez cap
+!----------------------------------------
+Object cap "red fez cap" monkey
+with
+  name 'red' 'fez' 'cap' 'band' 'tassel',
+  description "There's a red fez sitting on the monkey's head. A cap band under the monkey's chin prevents it from falling off while the monkey performs his antics.",
+has scenery;
+
+!----------------------------------------
+! Tin cup
+!----------------------------------------
+Object cup "tin cup" monkey
+with
+  name 'tin' 'cup',
+  description
+  [;
+    print "The monkey uses this to collect donations. ";
+    <<Search self>>;
+  ],
+  before
+  [;
+    Receive:
+      if (noun ~= coin)
+        "The only thing you should be putting in the monkey's tin cup is money.";
+      <<Give coin monkey>>;
+  ],
+has container open scenery;
+
+!========================================
+! Printing rules
+!========================================
+[ consultWord word i;
+  for (i=0:i<WordLength(word):i++)
+    print (char)LowerCase(WordAddress(word)->i);
+];
+
+[ DoesntOrDont obj;
+  if (obj has pluralname)
+    print "don't";
+  else
+    print "doesn't";
+];
+
+[ firstConsultWord word i;
+  for (i=0:i<WordLength(word):i++)
+    if (i == 0)
+      print (char)UpperCase(WordAddress(word)->i);
+    else
+      print (char)LowerCase(WordAddress(word)->i);
+];
+
+!========================================
+! Other routines
+!========================================
+[ _UpdateDarkness p_silent _ceil _old_darkness _darkness;
+  if (location == thedark)
+    _old_darkness = true;
+  _ceil = ScopeCeiling(player);
+  if (_LookForLightInObj(_ceil, _ceil) == false)
+    _darkness = true;
+  if (_darkness ~= _old_darkness)
+    scope_modified = true;
+  if (_darkness)
+    location = thedark;
+  else
+    location = real_location;
+  if (_darkness ~= _old_darkness && p_silent == false)
+  {
+    new_line;
+    <Look>;
+  }
+];
+
+[ LowerCase c; ! for ZSCII matching ISO 8859-1
+  switch (c)
+  {
+    'A' to 'Z': c = c + 32;
+    202, 204, 212, 214, 221: c--;
+    217, 218: c = c - 2;
+    158 to 160, 167, 168, 208 to 210: c = c - 3;
+    186 to 190, 196 to 200: c = c - 5 ;
+    175 to 180: c = c - 6;
+  }
+  return c;
+];
+
+[ UpperCase c; ! for ZSCII matching ISO 8859-1
+  switch (c)
+  {
+    'a' to 'z': c = c - 32;
+    201, 203, 211, 213, 220: c++;
+    215, 216: c = c + 2;
+    155 to 157, 164, 165, 205 to 207: c = c + 3;
+    181 to 185, 191 to 195: c = c + 5 ;
+    169 to 174: c = c + 6;
+  }
+  return c;
+];
+
+!========================================
+! Grammar
+!========================================
+Extend 'ask'
+  * 'about' topic -> AskAbout;
+
+Extend 'lock' first
+  * noun -> Lock;
+
+Extend 'look'
+  * 'into' noun -> Search
+  * 'behind'/'under' noun -> LookUnder;
+
+Extend 'read' first
+  * noun -> Read;
+
+Extend only 'say' first
+  * topic -> Say;
+
+Extend only 'speak' replace
+  * -> Talk
+  * creature -> Talk
+  * noun -> Talk
+  * 'to'/'with' creature -> Talk
+  * 'to'/'with' noun -> Talk
+  * 'to'/'with' creature 'about' topic -> Ask
+  * 'to'/'with' noun 'about' topic -> Ask;
+
+Extend 'unlock' first
+  * noun -> Unlock;
+
+Verb meta 'about' 'info'
+  * -> About;
+
+Verb meta 'credits'
+  * -> Credits;
+
+Verb meta 'help' 'instructions'
+  * -> Help;
+
+Verb 'hint' 'clue'
+  * -> Hint;
+
+Verb 'inspect' = 'examine';
+
+Verb 'point'
+  * 'at'/'to'/'toward'/'towards' noun -> Point;
+
+Verb 'talk' 'babble' 'chat' 'communicate' 'converse' 'gab' 'gossip'
+  * -> Talk
+  * creature -> Talk
+  * noun -> Talk
+  * 'to'/'with' creature -> Talk
+  * 'to'/'with' noun -> Talk
+  * 'to'/'with' creature 'about' topic -> Ask
+  * 'to'/'with' noun 'about' topic -> Ask;
+
+Verb 'use'
+  * noun -> Use;
+
+Verb 'xyzzy' 'plover' 'plugh' 'yoho'
+  * -> MagicWord;
+
+!========================================
+! Actions
+!========================================
+[ AboutSub;
+  print "This game was written in about six hours for PunyComp 2025. Submissions were open from 2 November to 1 December 2025, but I didn't start until 10 hours before submissions closed.^^";
+  <<Credits>>;
+];
+
+[ AskAboutSub x count npc;
+  objectloop (x in location && x has animate && x ~= player)
+  {
+    count++;
+    npc = x;
+  }
+  if (count == 0)
+    "There's no one here to answer your questions.";
+  if (count == 1)
+    <<Ask npc noun>>;
+  "As there are multiple characters here, you'll have to specify who to ask, e.g. ASK MAN ABOUT DOG.";
+];
+
+[ CreditsSub;
+  "Game design and coding by Garry Francis.^Play testing by no one, as I didn't have time for that.";
+];
+
+!Delete GoSub if diagonal directions are used
+[ GoSub _prop;
+  if (selected_direction == ne_to or nw_to or se_to or sw_to)
+    "There are no diagonal directions in this game.";
+  _prop = selected_direction;
+#Iftrue RUNTIME_ERRORS > RTE_MINIMUM;
+  if (_prop == 0)
+    return _RunTimeError(ERR_INVALID_DIR_PROP);
+#Endif;
+  return GoDir(_prop);
+];
+
+[ HelpSub;
+  "Tell me what to do using simple commands starting with a verb.^^Use LOOK (or L) to refresh the location description. Identify all the objects in the description and EXAMINE (or X) each one. Read responses carefully for hints.^^Use compass directions (N, S, E, W, U and D) to move around. Draw a map as you go.^^Use GET or TAKE to take objects and DROP to drop them again. Use WEAR to wear things like clothing and REMOVE to remove anything that's currently worn. Use INVENTORY (or I) to see what you're carrying and wearing.^^Use AGAIN (or G) to repeat the last command.^^Use UNDO to undo the last command if you make a mistake.^^Use SAVE to save the game and RESTORE to restore it again.^^There are over 100 verbs that you can use, so if something doesn't work, try a different verb or a different way of doing things. Use HINT if you get stuck.^^For full instructions, see the game page at <https://warrigal.itch.io/organ-grinders-monkey>.";
+];
+
+[ HintSub;
+  "No time for hints. Examine everything you find and draw a map.";
+];
+
+[ LockSub k;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  if (noun hasnt lockable)
+  {
+    PrintMsg(MSG_LOCK_NOT_A_LOCK, 'lock');
+    rtrue;
+  }
+  if (noun has locked)
+  {
+    PrintMsg(MSG_LOCK_ALREADY_LOCKED);
+    rtrue;
+  }
+  if (noun has open)
+  {
+    PrintMsg(MSG_LOCK_CLOSE_FIRST);
+    rtrue;
+  }
+  k = RunRoutines(noun, with_key);
+  if (k == nothing)
+    "You can't see how to lock ", (ItOrThem)noun, ".";
+  if (second == nothing && k ~= nothing && k in player)
+  {
+    second = k;
+    print "(with ", (the)second, ")^";
+  }
+  if (second == nothing)
+    "You don't have the key.";
+  if (second ~= k)
+  {
+    PrintMsg(MSG_LOCK_KEY_DOESNT_FIT);
+    rtrue;
+  }
+  give noun locked;
+  run_after_routines_msg = MSG_LOCK_DEFAULT;
+  run_after_routines_arg_1 = 'lock';
+];
+
+[ LookUnderSub;
+  if (location == thedark)
+    "But it's dark.";
+  "You find nothing of interest.";
+];
+
+[ MagicWordSub;
+  "When you utter the ancient magic word, Tommy gives you a strange look. ~Are you feeling okay, daddy?~";
+];
+
+[ PointSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  "You point at ", (the)noun, ", but no one else seems interested.";
+];
+
+[ ReadSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  "There's nothing legible on ", (ThatOrThose)noun, ".";
+];
+
+[ SaySub i;
+  if (consult_words == 0)
+    "You have nothing to say.";
+  print "~";
+  i = consult_from;
+  print (firstConsultWord)i++;
+  while (i < consult_from + consult_words)
+    print " ", (consultWord)i++;
+  print ".~^^";
+  wn = consult_from;
+  if (consult_words == 1 && NextWord() == 'xyzzy' or 'plover' or 'plugh' or 'yoho')
+    <<MagicWord>>;
+  if (AfterRoutines())
+    rtrue;
+  "Nothing happens.";
+];
+
+[ TalkSub;
+  if (noun == nothing)
+    "You start talking to no one in particular.";
+  if (noun == player)
+    "You start talking to yourself, but it's a one-sided conversation.";
+  if (RunLife(noun, ##Talk))
+    rtrue;
+  print_ret (The)noun, " ", (IsOrAre)noun, " not very talkative.";
+];
+
+[ UnlockSub k;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  if (noun hasnt lockable)
+  {
+    PrintMsg(MSG_UNLOCK_NOT_A_LOCK, 'unlock');
+    rtrue;
+  }
+  if (noun hasnt locked)
+  {
+    PrintMsg(MSG_UNLOCK_ALREADY_UNLOCKED, 'unlock');
+    rtrue;
+  }
+  k = RunRoutines(noun, with_key);
+  if (k == nothing)
+    "You can't see how to unlock ", (ItOrThem)noun, ".";
+  if (second == nothing && k ~= nothing && k in player)
+  {
+    second = k;
+    print "(with ", (the)second, ")^";
+  }
+  if (second == nothing)
+    "You don't have the key.";
+  if (second ~= k)
+  {
+    PrintMsg(MSG_UNLOCK_KEY_DOESNT_FIT);
+    rtrue;
+  }
+  give noun ~locked;
+  run_after_routines_msg = MSG_UNLOCK_DEFAULT;
+  run_after_routines_arg_1 = 'unlock';
+];
+
+[ UseSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  "You'll have to be more explicit than that.";
+];
+
+End;

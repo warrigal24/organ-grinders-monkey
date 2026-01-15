@@ -1,0 +1,30 @@
+The Organ Grinder's Monkey, release 1
+By Garry Francis
+For Z-code interpreters
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. Some optional (but significant) commands are shown in parentheses. These can be omitted once you know what to do.
+
+(S) (Tommy wants a balloon)
+(GET BALLOON) (you can't just take it, you'll have to buy one)
+(I) (you're carrying your wallet)
+(X WALLET) (it contains ID, driver'slicence, credit cards and some cash)
+BUY BALLOON (you give it to Tommy, but he drops it, it gets caught in lamp post)
+(CLIMB POST) (you're not a monkey)
+S
+X FOUNTAIN (you find a coin)
+GET COIN
+(S)
+(BUY FAIRY FLOSS)
+(EAT IT) (you don't like fairy floss, but Tommy does)
+(GIVE IT TO TOMMY) (Tommy scoffs it down)
+(N)
+W
+(X MONKEY) (he has a tin cup that he uses to collect donations)
+GIVE COIN TO MONKEY (you've made a friend, he will now follow you)
+E
+N
+POINT AT BALLOON (monkey recovers balloon and goes back to organ grinder)
+GIVE BALLOON TO TOMMY (he gives you a hug, "You're the best daddy in the world")
+***THE END***
